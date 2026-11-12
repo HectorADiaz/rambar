@@ -73,9 +73,11 @@ El mismo criterio del Monitor de Actividad: **memoria de apps + conectada (wired
 
 Debería coincidir muy de cerca con lo que ves en el Monitor de Actividad. "Muy de cerca" y no "exacto" porque Apple no documenta su fórmula al detalle: para la parte de apps, ellos agregan el *phys_footprint* de cada proceso y aquí se usa el contador global de páginas internas menos las purgables. La diferencia es de décimas de GB.
 
-## Instalación sin compilar
+## Instalación
 
-Si prefieres saltarte el compilador, descarga el `.dmg` de la última [release](../../releases) —cuando haya alguna publicada—, ábrelo y arrastra `RamBar.app` a Aplicaciones.
+Si solo quieres usarla, descarga el `.dmg` de la última [release](../../releases), ábrelo y arrastra `RamBar.app` a Aplicaciones. No necesitas Xcode, ni terminal, ni clonar nada.
+
+Si prefieres compilarla tú mismo, sigue el [inicio rápido](#inicio-rápido): es una orden y te saltas el aviso de Gatekeeper que viene abajo, porque una app compilada localmente no entra en cuarentena.
 
 Binario universal (Apple Silicon e Intel), ~1 MB, sin icono en el Dock.
 
