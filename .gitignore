@@ -1,0 +1,15 @@
+# Build output
+build/
+*.app
+*.dmg
+
+# Swift / Xcode
+.build/
+*.o
+*.dSYM/
+.swiftpm/
+*.xcuserstate
+xcuserdata/
+
+# macOS
+.DS_Store
